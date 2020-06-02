@@ -136,6 +136,33 @@ div.selectionBox {
 div.minitureStrip {
   padding: 3px 0 0 21px;
 }
+
+.minitureStrip > figure {
+  vertical-align: top;
+  display: inline-block;
+  width: calc(100% / 6 - 13px);
+  margin-bottom: 12px;
+}
+
+.minitureStrip > figure > img {
+  width: 100%;
+}
+
+.minitureStrip > figure > figcaption {
+  /* display: none; */
+  margin-top: -8px;
+  /* height: 25px; */
+  /* border: 1px solid rgba(255, 0, 0, 1); */
+  font-size: 12px;
+  color: red;
+}
+
+div.minitureStrip > figure > img:hover {
+  opacity: 0.5;
+  border: 1px solid red;
+}
+
+/*
 div.minitureStrip > img {
   float: left;
 
@@ -150,12 +177,12 @@ div.minitureStrip > img {
 
 div.minitureStrip > img:hover {
   opacity: 0.5;
-  border: 1px solid red
+  border: 1px solid red;
 }
 
 div.minitureStrip > img.selected-image {
-  border: 1px solid red
-}
+  border: 1px solid red;
+} */
 
 #GOTO {
   padding-top: 12px;
